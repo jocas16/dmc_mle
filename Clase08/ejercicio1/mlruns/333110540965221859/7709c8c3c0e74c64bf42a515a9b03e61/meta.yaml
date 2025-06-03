@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/PP/dmc_mle/clase08/ejericio1/mlruns/333110540965221859/7709c8c3c0e74c64bf42a515a9b03e61/artifacts
+end_time: 1748914755766
+entry_point_name: ''
+experiment_id: '333110540965221859'
+lifecycle_stage: active
+run_id: 7709c8c3c0e74c64bf42a515a9b03e61
+run_name: Extra Trees Classifier
+run_uuid: 7709c8c3c0e74c64bf42a515a9b03e61
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748914755460
+status: 3
+tags: []
+user_id: Jose Castañeda

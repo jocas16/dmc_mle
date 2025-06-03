@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/PP/dmc_mle/clase08/ejericio1/mlruns/333110540965221859/fdfe38963fd7439a9eccb5ddc6ca5f3f/artifacts
+end_time: 1748914756898
+entry_point_name: ''
+experiment_id: '333110540965221859'
+lifecycle_stage: active
+run_id: fdfe38963fd7439a9eccb5ddc6ca5f3f
+run_name: Light Gradient Boosting Machine
+run_uuid: fdfe38963fd7439a9eccb5ddc6ca5f3f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748914756623
+status: 3
+tags: []
+user_id: Jose Castañeda

@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/PP/dmc_mle/clase08/ejericio1/mlruns/333110540965221859/215303e07c5d4923b7582f2047b7ba36/artifacts
+end_time: 1748914754630
+entry_point_name: ''
+experiment_id: '333110540965221859'
+lifecycle_stage: active
+run_id: 215303e07c5d4923b7582f2047b7ba36
+run_name: Random Forest Classifier
+run_uuid: 215303e07c5d4923b7582f2047b7ba36
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748914754389
+status: 3
+tags: []
+user_id: Jose Castañeda

@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/PP/dmc_mle/clase08/ejericio1/mlruns/333110540965221859/a737281808614fb69d12639c2d2c6792/artifacts
+end_time: 1748914756123
+entry_point_name: ''
+experiment_id: '333110540965221859'
+lifecycle_stage: active
+run_id: a737281808614fb69d12639c2d2c6792
+run_name: Ada Boost Classifier
+run_uuid: a737281808614fb69d12639c2d2c6792
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748914755886
+status: 3
+tags: []
+user_id: Jose Castañeda

@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/PP/dmc_mle/clase08/ejericio1/mlruns/333110540965221859/a7e7b82eb93941caa2780eb5d461ac50/artifacts
+end_time: 1748914757336
+entry_point_name: ''
+experiment_id: '333110540965221859'
+lifecycle_stage: active
+run_id: a7e7b82eb93941caa2780eb5d461ac50
+run_name: K Neighbors Classifier
+run_uuid: a7e7b82eb93941caa2780eb5d461ac50
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748914757048
+status: 3
+tags: []
+user_id: Jose Castañeda

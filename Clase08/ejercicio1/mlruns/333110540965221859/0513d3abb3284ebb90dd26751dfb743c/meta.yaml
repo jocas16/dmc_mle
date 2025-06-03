@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/PP/dmc_mle/clase08/ejericio1/mlruns/333110540965221859/0513d3abb3284ebb90dd26751dfb743c/artifacts
+end_time: 1748914753530
+entry_point_name: ''
+experiment_id: '333110540965221859'
+lifecycle_stage: active
+run_id: 0513d3abb3284ebb90dd26751dfb743c
+run_name: Logistic Regression
+run_uuid: 0513d3abb3284ebb90dd26751dfb743c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748914745166
+status: 3
+tags: []
+user_id: Jose Castañeda
