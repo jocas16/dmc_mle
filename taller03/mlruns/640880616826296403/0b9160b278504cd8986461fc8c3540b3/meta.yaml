@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/PP/dmc_mle/taller03/mlruns/640880616826296403/0b9160b278504cd8986461fc8c3540b3/artifacts
+end_time: 1749351577321
+entry_point_name: ''
+experiment_id: '640880616826296403'
+lifecycle_stage: active
+run_id: 0b9160b278504cd8986461fc8c3540b3
+run_name: SVM - Linear Kernel
+run_uuid: 0b9160b278504cd8986461fc8c3540b3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749351577106
+status: 3
+tags: []
+user_id: Jose Castañeda

@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/PP/dmc_mle/taller03/mlruns/640880616826296403/4ca4e0934668430d95a51fe0fb6cad6f/artifacts
+end_time: 1749351724651
+entry_point_name: ''
+experiment_id: '640880616826296403'
+lifecycle_stage: active
+run_id: 4ca4e0934668430d95a51fe0fb6cad6f
+run_name: Gradient Boosting Classifier
+run_uuid: 4ca4e0934668430d95a51fe0fb6cad6f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749351724434
+status: 3
+tags: []
+user_id: Jose Castañeda

@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/PP/dmc_mle/taller03/mlruns/640880616826296403/5ca67cb237f74ceca05a317a451b2244/artifacts
+end_time: 1749351723977
+entry_point_name: ''
+experiment_id: '640880616826296403'
+lifecycle_stage: active
+run_id: 5ca67cb237f74ceca05a317a451b2244
+run_name: K Neighbors Classifier
+run_uuid: 5ca67cb237f74ceca05a317a451b2244
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749351723719
+status: 3
+tags: []
+user_id: Jose Castañeda

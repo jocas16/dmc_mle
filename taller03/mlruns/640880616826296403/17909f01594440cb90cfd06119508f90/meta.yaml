@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/PP/dmc_mle/taller03/mlruns/640880616826296403/17909f01594440cb90cfd06119508f90/artifacts
+end_time: 1749351722372
+entry_point_name: ''
+experiment_id: '640880616826296403'
+lifecycle_stage: active
+run_id: 17909f01594440cb90cfd06119508f90
+run_name: Dummy Classifier
+run_uuid: 17909f01594440cb90cfd06119508f90
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749351722192
+status: 3
+tags: []
+user_id: Jose Castañeda

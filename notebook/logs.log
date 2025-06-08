@@ -269,3 +269,735 @@ Alternately, you can install this by running `pip install pycaret[models]`
 'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
 Alternately, you can install this by running `pip install pycaret[models]`
 2025-05-12 23:11:17,022:INFO:setup() successfully completed in 1.58s...............
+2025-05-12 23:11:24,888:INFO:Initializing compare_models()
+2025-05-12 23:11:24,888:INFO:compare_models(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001CC0104B9D0>, include=None, exclude=None, fold=None, round=4, cross_validation=True, sort=R2, n_select=1, budget_time=None, turbo=True, errors=ignore, fit_kwargs=None, groups=None, experiment_custom_tags=None, probability_threshold=None, verbose=True, parallel=None, caller_params={'self': <pycaret.regression.oop.RegressionExperiment object at 0x000001CC0104B9D0>, 'include': None, 'exclude': None, 'fold': None, 'round': 4, 'cross_validation': True, 'sort': 'R2', 'n_select': 1, 'budget_time': None, 'turbo': True, 'errors': 'ignore', 'fit_kwargs': None, 'groups': None, 'experiment_custom_tags': None, 'engine': None, 'verbose': True, 'parallel': None, '__class__': <class 'pycaret.regression.oop.RegressionExperiment'>})
+2025-05-12 23:11:24,888:INFO:Checking exceptions
+2025-05-12 23:11:24,890:INFO:Preparing display monitor
+2025-05-12 23:11:24,912:INFO:Initializing Linear Regression
+2025-05-12 23:11:24,912:INFO:Total runtime is 0.0 minutes
+2025-05-12 23:11:24,915:INFO:SubProcess create_model() called ==================================
+2025-05-12 23:11:24,916:INFO:Initializing create_model()
+2025-05-12 23:11:24,916:INFO:create_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001CC0104B9D0>, estimator=lr, fold=KFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x000001CC4535F690>, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2025-05-12 23:11:24,916:INFO:Checking exceptions
+2025-05-12 23:11:24,916:INFO:Importing libraries
+2025-05-12 23:11:24,916:INFO:Copying training dataset
+2025-05-12 23:11:24,918:INFO:Defining folds
+2025-05-12 23:11:24,918:INFO:Declaring metric variables
+2025-05-12 23:11:24,921:INFO:Importing untrained model
+2025-05-12 23:11:24,925:INFO:Linear Regression Imported successfully
+2025-05-12 23:11:24,931:INFO:Starting cross validation
+2025-05-12 23:11:24,952:INFO:Cross validating with KFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2025-05-12 23:11:30,392:WARNING:c:\env\ml\Lib\site-packages\numpy\lib\function_base.py:520: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis, **keepdims_kw)
+
+2025-05-12 23:11:30,399:WARNING:c:\env\ml\Lib\site-packages\numpy\core\_methods.py:129: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+
+2025-05-12 23:11:30,404:INFO:Calculating mean and std
+2025-05-12 23:11:30,408:INFO:Creating metrics dataframe
+2025-05-12 23:11:30,414:INFO:Uploading results into container
+2025-05-12 23:11:30,416:INFO:Uploading model into container now
+2025-05-12 23:11:30,417:INFO:_master_model_container: 1
+2025-05-12 23:11:30,418:INFO:_display_container: 2
+2025-05-12 23:11:30,418:INFO:LinearRegression(n_jobs=-1)
+2025-05-12 23:11:30,420:INFO:create_model() successfully completed......................................
+2025-05-12 23:11:30,548:INFO:SubProcess create_model() end ==================================
+2025-05-12 23:11:30,548:INFO:Creating metrics dataframe
+2025-05-12 23:11:30,554:INFO:Initializing Lasso Regression
+2025-05-12 23:11:30,554:INFO:Total runtime is 0.09403047959009807 minutes
+2025-05-12 23:11:30,557:INFO:SubProcess create_model() called ==================================
+2025-05-12 23:11:30,557:INFO:Initializing create_model()
+2025-05-12 23:11:30,557:INFO:create_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001CC0104B9D0>, estimator=lasso, fold=KFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x000001CC4535F690>, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2025-05-12 23:11:30,557:INFO:Checking exceptions
+2025-05-12 23:11:30,557:INFO:Importing libraries
+2025-05-12 23:11:30,558:INFO:Copying training dataset
+2025-05-12 23:11:30,560:INFO:Defining folds
+2025-05-12 23:11:30,561:INFO:Declaring metric variables
+2025-05-12 23:11:30,564:INFO:Importing untrained model
+2025-05-12 23:11:30,568:INFO:Lasso Regression Imported successfully
+2025-05-12 23:11:30,573:INFO:Starting cross validation
+2025-05-12 23:11:30,575:INFO:Cross validating with KFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2025-05-12 23:11:30,689:WARNING:c:\env\ml\Lib\site-packages\numpy\lib\function_base.py:520: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis, **keepdims_kw)
+
+2025-05-12 23:11:30,690:WARNING:c:\env\ml\Lib\site-packages\numpy\core\_methods.py:129: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+
+2025-05-12 23:11:34,563:INFO:Calculating mean and std
+2025-05-12 23:11:34,566:INFO:Creating metrics dataframe
+2025-05-12 23:11:34,570:INFO:Uploading results into container
+2025-05-12 23:11:34,572:INFO:Uploading model into container now
+2025-05-12 23:11:34,573:INFO:_master_model_container: 2
+2025-05-12 23:11:34,573:INFO:_display_container: 2
+2025-05-12 23:11:34,574:INFO:Lasso(random_state=123)
+2025-05-12 23:11:34,574:INFO:create_model() successfully completed......................................
+2025-05-12 23:11:34,687:INFO:SubProcess create_model() end ==================================
+2025-05-12 23:11:34,687:INFO:Creating metrics dataframe
+2025-05-12 23:11:34,693:INFO:Initializing Ridge Regression
+2025-05-12 23:11:34,693:INFO:Total runtime is 0.16302340825398765 minutes
+2025-05-12 23:11:34,695:INFO:SubProcess create_model() called ==================================
+2025-05-12 23:11:34,697:INFO:Initializing create_model()
+2025-05-12 23:11:34,697:INFO:create_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001CC0104B9D0>, estimator=ridge, fold=KFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x000001CC4535F690>, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2025-05-12 23:11:34,697:INFO:Checking exceptions
+2025-05-12 23:11:34,697:INFO:Importing libraries
+2025-05-12 23:11:34,697:INFO:Copying training dataset
+2025-05-12 23:11:34,700:INFO:Defining folds
+2025-05-12 23:11:34,700:INFO:Declaring metric variables
+2025-05-12 23:11:34,703:INFO:Importing untrained model
+2025-05-12 23:11:34,706:INFO:Ridge Regression Imported successfully
+2025-05-12 23:11:34,710:INFO:Starting cross validation
+2025-05-12 23:11:34,711:INFO:Cross validating with KFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2025-05-12 23:11:34,822:WARNING:c:\env\ml\Lib\site-packages\numpy\lib\function_base.py:520: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis, **keepdims_kw)
+
+2025-05-12 23:11:34,823:WARNING:c:\env\ml\Lib\site-packages\numpy\core\_methods.py:129: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+
+2025-05-12 23:11:34,828:INFO:Calculating mean and std
+2025-05-12 23:11:34,829:INFO:Creating metrics dataframe
+2025-05-12 23:11:34,831:INFO:Uploading results into container
+2025-05-12 23:11:34,831:INFO:Uploading model into container now
+2025-05-12 23:11:34,832:INFO:_master_model_container: 3
+2025-05-12 23:11:34,832:INFO:_display_container: 2
+2025-05-12 23:11:34,832:INFO:Ridge(random_state=123)
+2025-05-12 23:11:34,832:INFO:create_model() successfully completed......................................
+2025-05-12 23:11:34,919:INFO:SubProcess create_model() end ==================================
+2025-05-12 23:11:34,919:INFO:Creating metrics dataframe
+2025-05-12 23:11:34,923:INFO:Initializing Elastic Net
+2025-05-12 23:11:34,923:INFO:Total runtime is 0.166852605342865 minutes
+2025-05-12 23:11:34,927:INFO:SubProcess create_model() called ==================================
+2025-05-12 23:11:34,927:INFO:Initializing create_model()
+2025-05-12 23:11:34,927:INFO:create_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001CC0104B9D0>, estimator=en, fold=KFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x000001CC4535F690>, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2025-05-12 23:11:34,927:INFO:Checking exceptions
+2025-05-12 23:11:34,927:INFO:Importing libraries
+2025-05-12 23:11:34,927:INFO:Copying training dataset
+2025-05-12 23:11:34,930:INFO:Defining folds
+2025-05-12 23:11:34,930:INFO:Declaring metric variables
+2025-05-12 23:11:34,933:INFO:Importing untrained model
+2025-05-12 23:11:34,936:INFO:Elastic Net Imported successfully
+2025-05-12 23:11:34,942:INFO:Starting cross validation
+2025-05-12 23:11:34,943:INFO:Cross validating with KFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2025-05-12 23:11:35,053:WARNING:c:\env\ml\Lib\site-packages\numpy\lib\function_base.py:520: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis, **keepdims_kw)
+
+2025-05-12 23:11:35,053:WARNING:c:\env\ml\Lib\site-packages\numpy\core\_methods.py:129: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+
+2025-05-12 23:11:35,059:INFO:Calculating mean and std
+2025-05-12 23:11:35,060:INFO:Creating metrics dataframe
+2025-05-12 23:11:35,062:INFO:Uploading results into container
+2025-05-12 23:11:35,063:INFO:Uploading model into container now
+2025-05-12 23:11:35,064:INFO:_master_model_container: 4
+2025-05-12 23:11:35,064:INFO:_display_container: 2
+2025-05-12 23:11:35,064:INFO:ElasticNet(random_state=123)
+2025-05-12 23:11:35,064:INFO:create_model() successfully completed......................................
+2025-05-12 23:11:35,159:INFO:SubProcess create_model() end ==================================
+2025-05-12 23:11:35,159:INFO:Creating metrics dataframe
+2025-05-12 23:11:35,165:INFO:Initializing Least Angle Regression
+2025-05-12 23:11:35,165:INFO:Total runtime is 0.17088993390401205 minutes
+2025-05-12 23:11:35,169:INFO:SubProcess create_model() called ==================================
+2025-05-12 23:11:35,169:INFO:Initializing create_model()
+2025-05-12 23:11:35,169:INFO:create_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001CC0104B9D0>, estimator=lar, fold=KFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x000001CC4535F690>, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2025-05-12 23:11:35,169:INFO:Checking exceptions
+2025-05-12 23:11:35,169:INFO:Importing libraries
+2025-05-12 23:11:35,169:INFO:Copying training dataset
+2025-05-12 23:11:35,173:INFO:Defining folds
+2025-05-12 23:11:35,173:INFO:Declaring metric variables
+2025-05-12 23:11:35,176:INFO:Importing untrained model
+2025-05-12 23:11:35,179:INFO:Least Angle Regression Imported successfully
+2025-05-12 23:11:35,185:INFO:Starting cross validation
+2025-05-12 23:11:35,187:INFO:Cross validating with KFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2025-05-12 23:11:35,328:WARNING:c:\env\ml\Lib\site-packages\numpy\lib\function_base.py:520: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis, **keepdims_kw)
+
+2025-05-12 23:11:35,328:WARNING:c:\env\ml\Lib\site-packages\numpy\core\_methods.py:129: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+
+2025-05-12 23:11:35,331:INFO:Calculating mean and std
+2025-05-12 23:11:35,332:INFO:Creating metrics dataframe
+2025-05-12 23:11:35,334:INFO:Uploading results into container
+2025-05-12 23:11:35,335:INFO:Uploading model into container now
+2025-05-12 23:11:35,335:INFO:_master_model_container: 5
+2025-05-12 23:11:35,335:INFO:_display_container: 2
+2025-05-12 23:11:35,336:INFO:Lars(random_state=123)
+2025-05-12 23:11:35,336:INFO:create_model() successfully completed......................................
+2025-05-12 23:11:35,433:INFO:SubProcess create_model() end ==================================
+2025-05-12 23:11:35,434:INFO:Creating metrics dataframe
+2025-05-12 23:11:35,439:INFO:Initializing Lasso Least Angle Regression
+2025-05-12 23:11:35,439:INFO:Total runtime is 0.17545105616251627 minutes
+2025-05-12 23:11:35,442:INFO:SubProcess create_model() called ==================================
+2025-05-12 23:11:35,442:INFO:Initializing create_model()
+2025-05-12 23:11:35,442:INFO:create_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001CC0104B9D0>, estimator=llar, fold=KFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x000001CC4535F690>, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2025-05-12 23:11:35,443:INFO:Checking exceptions
+2025-05-12 23:11:35,443:INFO:Importing libraries
+2025-05-12 23:11:35,443:INFO:Copying training dataset
+2025-05-12 23:11:35,446:INFO:Defining folds
+2025-05-12 23:11:35,446:INFO:Declaring metric variables
+2025-05-12 23:11:35,450:INFO:Importing untrained model
+2025-05-12 23:11:35,454:INFO:Lasso Least Angle Regression Imported successfully
+2025-05-12 23:11:35,459:INFO:Starting cross validation
+2025-05-12 23:11:35,460:INFO:Cross validating with KFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2025-05-12 23:11:35,586:WARNING:c:\env\ml\Lib\site-packages\numpy\lib\function_base.py:520: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis, **keepdims_kw)
+
+2025-05-12 23:11:35,586:WARNING:c:\env\ml\Lib\site-packages\numpy\core\_methods.py:129: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+
+2025-05-12 23:11:35,601:INFO:Calculating mean and std
+2025-05-12 23:11:35,603:INFO:Creating metrics dataframe
+2025-05-12 23:11:35,604:INFO:Uploading results into container
+2025-05-12 23:11:35,605:INFO:Uploading model into container now
+2025-05-12 23:11:35,605:INFO:_master_model_container: 6
+2025-05-12 23:11:35,605:INFO:_display_container: 2
+2025-05-12 23:11:35,605:INFO:LassoLars(random_state=123)
+2025-05-12 23:11:35,606:INFO:create_model() successfully completed......................................
+2025-05-12 23:11:35,696:INFO:SubProcess create_model() end ==================================
+2025-05-12 23:11:35,696:INFO:Creating metrics dataframe
+2025-05-12 23:11:35,702:INFO:Initializing Orthogonal Matching Pursuit
+2025-05-12 23:11:35,702:INFO:Total runtime is 0.17983810106913248 minutes
+2025-05-12 23:11:35,705:INFO:SubProcess create_model() called ==================================
+2025-05-12 23:11:35,706:INFO:Initializing create_model()
+2025-05-12 23:11:35,706:INFO:create_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001CC0104B9D0>, estimator=omp, fold=KFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x000001CC4535F690>, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2025-05-12 23:11:35,706:INFO:Checking exceptions
+2025-05-12 23:11:35,706:INFO:Importing libraries
+2025-05-12 23:11:35,706:INFO:Copying training dataset
+2025-05-12 23:11:35,709:INFO:Defining folds
+2025-05-12 23:11:35,710:INFO:Declaring metric variables
+2025-05-12 23:11:35,712:INFO:Importing untrained model
+2025-05-12 23:11:35,715:INFO:Orthogonal Matching Pursuit Imported successfully
+2025-05-12 23:11:35,721:INFO:Starting cross validation
+2025-05-12 23:11:35,722:INFO:Cross validating with KFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2025-05-12 23:11:35,860:WARNING:c:\env\ml\Lib\site-packages\numpy\lib\function_base.py:520: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis, **keepdims_kw)
+
+2025-05-12 23:11:35,861:WARNING:c:\env\ml\Lib\site-packages\numpy\core\_methods.py:129: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+
+2025-05-12 23:11:35,866:INFO:Calculating mean and std
+2025-05-12 23:11:35,868:INFO:Creating metrics dataframe
+2025-05-12 23:11:35,869:INFO:Uploading results into container
+2025-05-12 23:11:35,870:INFO:Uploading model into container now
+2025-05-12 23:11:35,870:INFO:_master_model_container: 7
+2025-05-12 23:11:35,870:INFO:_display_container: 2
+2025-05-12 23:11:35,870:INFO:OrthogonalMatchingPursuit()
+2025-05-12 23:11:35,870:INFO:create_model() successfully completed......................................
+2025-05-12 23:11:35,959:INFO:SubProcess create_model() end ==================================
+2025-05-12 23:11:35,959:INFO:Creating metrics dataframe
+2025-05-12 23:11:35,965:INFO:Initializing Bayesian Ridge
+2025-05-12 23:11:35,965:INFO:Total runtime is 0.18421024481455484 minutes
+2025-05-12 23:11:35,968:INFO:SubProcess create_model() called ==================================
+2025-05-12 23:11:35,968:INFO:Initializing create_model()
+2025-05-12 23:11:35,968:INFO:create_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001CC0104B9D0>, estimator=br, fold=KFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x000001CC4535F690>, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2025-05-12 23:11:35,968:INFO:Checking exceptions
+2025-05-12 23:11:35,968:INFO:Importing libraries
+2025-05-12 23:11:35,968:INFO:Copying training dataset
+2025-05-12 23:11:35,972:INFO:Defining folds
+2025-05-12 23:11:35,973:INFO:Declaring metric variables
+2025-05-12 23:11:35,975:INFO:Importing untrained model
+2025-05-12 23:11:35,979:INFO:Bayesian Ridge Imported successfully
+2025-05-12 23:11:35,985:INFO:Starting cross validation
+2025-05-12 23:11:35,987:INFO:Cross validating with KFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2025-05-12 23:11:36,090:WARNING:c:\env\ml\Lib\site-packages\numpy\lib\function_base.py:520: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis, **keepdims_kw)
+
+2025-05-12 23:11:36,091:WARNING:c:\env\ml\Lib\site-packages\numpy\core\_methods.py:129: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+
+2025-05-12 23:11:36,094:INFO:Calculating mean and std
+2025-05-12 23:11:36,095:INFO:Creating metrics dataframe
+2025-05-12 23:11:36,096:INFO:Uploading results into container
+2025-05-12 23:11:36,097:INFO:Uploading model into container now
+2025-05-12 23:11:36,097:INFO:_master_model_container: 8
+2025-05-12 23:11:36,097:INFO:_display_container: 2
+2025-05-12 23:11:36,098:INFO:BayesianRidge()
+2025-05-12 23:11:36,098:INFO:create_model() successfully completed......................................
+2025-05-12 23:11:36,179:INFO:SubProcess create_model() end ==================================
+2025-05-12 23:11:36,179:INFO:Creating metrics dataframe
+2025-05-12 23:11:36,185:INFO:Initializing Passive Aggressive Regressor
+2025-05-12 23:11:36,185:INFO:Total runtime is 0.18788894414901733 minutes
+2025-05-12 23:11:36,188:INFO:SubProcess create_model() called ==================================
+2025-05-12 23:11:36,188:INFO:Initializing create_model()
+2025-05-12 23:11:36,188:INFO:create_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001CC0104B9D0>, estimator=par, fold=KFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x000001CC4535F690>, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2025-05-12 23:11:36,188:INFO:Checking exceptions
+2025-05-12 23:11:36,188:INFO:Importing libraries
+2025-05-12 23:11:36,188:INFO:Copying training dataset
+2025-05-12 23:11:36,191:INFO:Defining folds
+2025-05-12 23:11:36,191:INFO:Declaring metric variables
+2025-05-12 23:11:36,193:INFO:Importing untrained model
+2025-05-12 23:11:36,195:INFO:Passive Aggressive Regressor Imported successfully
+2025-05-12 23:11:36,202:INFO:Starting cross validation
+2025-05-12 23:11:36,203:INFO:Cross validating with KFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2025-05-12 23:11:36,307:WARNING:c:\env\ml\Lib\site-packages\numpy\lib\function_base.py:520: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis, **keepdims_kw)
+
+2025-05-12 23:11:36,307:WARNING:c:\env\ml\Lib\site-packages\numpy\core\_methods.py:129: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+
+2025-05-12 23:11:36,310:INFO:Calculating mean and std
+2025-05-12 23:11:36,310:INFO:Creating metrics dataframe
+2025-05-12 23:11:36,312:INFO:Uploading results into container
+2025-05-12 23:11:36,312:INFO:Uploading model into container now
+2025-05-12 23:11:36,313:INFO:_master_model_container: 9
+2025-05-12 23:11:36,313:INFO:_display_container: 2
+2025-05-12 23:11:36,313:INFO:PassiveAggressiveRegressor(random_state=123)
+2025-05-12 23:11:36,313:INFO:create_model() successfully completed......................................
+2025-05-12 23:11:36,392:INFO:SubProcess create_model() end ==================================
+2025-05-12 23:11:36,392:INFO:Creating metrics dataframe
+2025-05-12 23:11:36,398:INFO:Initializing Huber Regressor
+2025-05-12 23:11:36,398:INFO:Total runtime is 0.1914268136024475 minutes
+2025-05-12 23:11:36,401:INFO:SubProcess create_model() called ==================================
+2025-05-12 23:11:36,401:INFO:Initializing create_model()
+2025-05-12 23:11:36,401:INFO:create_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001CC0104B9D0>, estimator=huber, fold=KFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x000001CC4535F690>, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2025-05-12 23:11:36,401:INFO:Checking exceptions
+2025-05-12 23:11:36,401:INFO:Importing libraries
+2025-05-12 23:11:36,401:INFO:Copying training dataset
+2025-05-12 23:11:36,405:INFO:Defining folds
+2025-05-12 23:11:36,405:INFO:Declaring metric variables
+2025-05-12 23:11:36,408:INFO:Importing untrained model
+2025-05-12 23:11:36,412:INFO:Huber Regressor Imported successfully
+2025-05-12 23:11:36,419:INFO:Starting cross validation
+2025-05-12 23:11:36,420:INFO:Cross validating with KFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2025-05-12 23:11:36,541:WARNING:c:\env\ml\Lib\site-packages\numpy\lib\function_base.py:520: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis, **keepdims_kw)
+
+2025-05-12 23:11:36,542:WARNING:c:\env\ml\Lib\site-packages\numpy\core\_methods.py:129: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+
+2025-05-12 23:11:36,546:INFO:Calculating mean and std
+2025-05-12 23:11:36,547:INFO:Creating metrics dataframe
+2025-05-12 23:11:36,549:INFO:Uploading results into container
+2025-05-12 23:11:36,550:INFO:Uploading model into container now
+2025-05-12 23:11:36,550:INFO:_master_model_container: 10
+2025-05-12 23:11:36,551:INFO:_display_container: 2
+2025-05-12 23:11:36,551:INFO:HuberRegressor()
+2025-05-12 23:11:36,551:INFO:create_model() successfully completed......................................
+2025-05-12 23:11:36,634:INFO:SubProcess create_model() end ==================================
+2025-05-12 23:11:36,634:INFO:Creating metrics dataframe
+2025-05-12 23:11:36,641:INFO:Initializing K Neighbors Regressor
+2025-05-12 23:11:36,641:INFO:Total runtime is 0.1954812208811442 minutes
+2025-05-12 23:11:36,644:INFO:SubProcess create_model() called ==================================
+2025-05-12 23:11:36,644:INFO:Initializing create_model()
+2025-05-12 23:11:36,645:INFO:create_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001CC0104B9D0>, estimator=knn, fold=KFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x000001CC4535F690>, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2025-05-12 23:11:36,645:INFO:Checking exceptions
+2025-05-12 23:11:36,645:INFO:Importing libraries
+2025-05-12 23:11:36,645:INFO:Copying training dataset
+2025-05-12 23:11:36,648:INFO:Defining folds
+2025-05-12 23:11:36,648:INFO:Declaring metric variables
+2025-05-12 23:11:36,651:INFO:Importing untrained model
+2025-05-12 23:11:36,655:INFO:K Neighbors Regressor Imported successfully
+2025-05-12 23:11:36,661:INFO:Starting cross validation
+2025-05-12 23:11:36,663:INFO:Cross validating with KFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2025-05-12 23:11:36,806:WARNING:c:\env\ml\Lib\site-packages\numpy\lib\function_base.py:520: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis, **keepdims_kw)
+
+2025-05-12 23:11:36,807:WARNING:c:\env\ml\Lib\site-packages\numpy\core\_methods.py:129: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+
+2025-05-12 23:11:36,810:INFO:Calculating mean and std
+2025-05-12 23:11:36,811:INFO:Creating metrics dataframe
+2025-05-12 23:11:36,813:INFO:Uploading results into container
+2025-05-12 23:11:36,814:INFO:Uploading model into container now
+2025-05-12 23:11:36,814:INFO:_master_model_container: 11
+2025-05-12 23:11:36,814:INFO:_display_container: 2
+2025-05-12 23:11:36,814:INFO:KNeighborsRegressor(n_jobs=-1)
+2025-05-12 23:11:36,815:INFO:create_model() successfully completed......................................
+2025-05-12 23:11:36,897:INFO:SubProcess create_model() end ==================================
+2025-05-12 23:11:36,898:INFO:Creating metrics dataframe
+2025-05-12 23:11:36,903:INFO:Initializing Decision Tree Regressor
+2025-05-12 23:11:36,904:INFO:Total runtime is 0.19986734787623087 minutes
+2025-05-12 23:11:36,906:INFO:SubProcess create_model() called ==================================
+2025-05-12 23:11:36,906:INFO:Initializing create_model()
+2025-05-12 23:11:36,906:INFO:create_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001CC0104B9D0>, estimator=dt, fold=KFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x000001CC4535F690>, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2025-05-12 23:11:36,906:INFO:Checking exceptions
+2025-05-12 23:11:36,907:INFO:Importing libraries
+2025-05-12 23:11:36,907:INFO:Copying training dataset
+2025-05-12 23:11:36,909:INFO:Defining folds
+2025-05-12 23:11:36,910:INFO:Declaring metric variables
+2025-05-12 23:11:36,912:INFO:Importing untrained model
+2025-05-12 23:11:36,914:INFO:Decision Tree Regressor Imported successfully
+2025-05-12 23:11:36,920:INFO:Starting cross validation
+2025-05-12 23:11:36,921:INFO:Cross validating with KFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2025-05-12 23:11:37,009:WARNING:c:\env\ml\Lib\site-packages\numpy\lib\function_base.py:520: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis, **keepdims_kw)
+
+2025-05-12 23:11:37,009:WARNING:c:\env\ml\Lib\site-packages\numpy\core\_methods.py:129: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+
+2025-05-12 23:11:37,025:INFO:Calculating mean and std
+2025-05-12 23:11:37,025:INFO:Creating metrics dataframe
+2025-05-12 23:11:37,028:INFO:Uploading results into container
+2025-05-12 23:11:37,028:INFO:Uploading model into container now
+2025-05-12 23:11:37,028:INFO:_master_model_container: 12
+2025-05-12 23:11:37,028:INFO:_display_container: 2
+2025-05-12 23:11:37,029:INFO:DecisionTreeRegressor(random_state=123)
+2025-05-12 23:11:37,029:INFO:create_model() successfully completed......................................
+2025-05-12 23:11:37,108:INFO:SubProcess create_model() end ==================================
+2025-05-12 23:11:37,108:INFO:Creating metrics dataframe
+2025-05-12 23:11:37,115:INFO:Initializing Random Forest Regressor
+2025-05-12 23:11:37,115:INFO:Total runtime is 0.2033915042877197 minutes
+2025-05-12 23:11:37,117:INFO:SubProcess create_model() called ==================================
+2025-05-12 23:11:37,117:INFO:Initializing create_model()
+2025-05-12 23:11:37,117:INFO:create_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001CC0104B9D0>, estimator=rf, fold=KFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x000001CC4535F690>, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2025-05-12 23:11:37,118:INFO:Checking exceptions
+2025-05-12 23:11:37,118:INFO:Importing libraries
+2025-05-12 23:11:37,118:INFO:Copying training dataset
+2025-05-12 23:11:37,121:INFO:Defining folds
+2025-05-12 23:11:37,121:INFO:Declaring metric variables
+2025-05-12 23:11:37,123:INFO:Importing untrained model
+2025-05-12 23:11:37,127:INFO:Random Forest Regressor Imported successfully
+2025-05-12 23:11:37,132:INFO:Starting cross validation
+2025-05-12 23:11:37,134:INFO:Cross validating with KFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2025-05-12 23:11:37,392:WARNING:c:\env\ml\Lib\site-packages\numpy\lib\function_base.py:520: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis, **keepdims_kw)
+
+2025-05-12 23:11:37,393:WARNING:c:\env\ml\Lib\site-packages\numpy\core\_methods.py:129: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+
+2025-05-12 23:11:37,412:INFO:Calculating mean and std
+2025-05-12 23:11:37,413:INFO:Creating metrics dataframe
+2025-05-12 23:11:37,414:INFO:Uploading results into container
+2025-05-12 23:11:37,415:INFO:Uploading model into container now
+2025-05-12 23:11:37,415:INFO:_master_model_container: 13
+2025-05-12 23:11:37,415:INFO:_display_container: 2
+2025-05-12 23:11:37,415:INFO:RandomForestRegressor(n_jobs=-1, random_state=123)
+2025-05-12 23:11:37,417:INFO:create_model() successfully completed......................................
+2025-05-12 23:11:37,496:INFO:SubProcess create_model() end ==================================
+2025-05-12 23:11:37,496:INFO:Creating metrics dataframe
+2025-05-12 23:11:37,503:INFO:Initializing Extra Trees Regressor
+2025-05-12 23:11:37,503:INFO:Total runtime is 0.20985063314437866 minutes
+2025-05-12 23:11:37,505:INFO:SubProcess create_model() called ==================================
+2025-05-12 23:11:37,506:INFO:Initializing create_model()
+2025-05-12 23:11:37,506:INFO:create_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001CC0104B9D0>, estimator=et, fold=KFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x000001CC4535F690>, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2025-05-12 23:11:37,506:INFO:Checking exceptions
+2025-05-12 23:11:37,506:INFO:Importing libraries
+2025-05-12 23:11:37,506:INFO:Copying training dataset
+2025-05-12 23:11:37,508:INFO:Defining folds
+2025-05-12 23:11:37,508:INFO:Declaring metric variables
+2025-05-12 23:11:37,511:INFO:Importing untrained model
+2025-05-12 23:11:37,513:INFO:Extra Trees Regressor Imported successfully
+2025-05-12 23:11:37,519:INFO:Starting cross validation
+2025-05-12 23:11:37,521:INFO:Cross validating with KFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2025-05-12 23:11:37,741:WARNING:c:\env\ml\Lib\site-packages\numpy\lib\function_base.py:520: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis, **keepdims_kw)
+
+2025-05-12 23:11:37,741:WARNING:c:\env\ml\Lib\site-packages\numpy\core\_methods.py:129: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+
+2025-05-12 23:11:37,749:INFO:Calculating mean and std
+2025-05-12 23:11:37,749:INFO:Creating metrics dataframe
+2025-05-12 23:11:37,751:INFO:Uploading results into container
+2025-05-12 23:11:37,752:INFO:Uploading model into container now
+2025-05-12 23:11:37,752:INFO:_master_model_container: 14
+2025-05-12 23:11:37,753:INFO:_display_container: 2
+2025-05-12 23:11:37,753:INFO:ExtraTreesRegressor(n_jobs=-1, random_state=123)
+2025-05-12 23:11:37,753:INFO:create_model() successfully completed......................................
+2025-05-12 23:11:37,834:INFO:SubProcess create_model() end ==================================
+2025-05-12 23:11:37,834:INFO:Creating metrics dataframe
+2025-05-12 23:11:37,841:INFO:Initializing AdaBoost Regressor
+2025-05-12 23:11:37,841:INFO:Total runtime is 0.2154920220375061 minutes
+2025-05-12 23:11:37,843:INFO:SubProcess create_model() called ==================================
+2025-05-12 23:11:37,843:INFO:Initializing create_model()
+2025-05-12 23:11:37,843:INFO:create_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001CC0104B9D0>, estimator=ada, fold=KFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x000001CC4535F690>, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2025-05-12 23:11:37,844:INFO:Checking exceptions
+2025-05-12 23:11:37,844:INFO:Importing libraries
+2025-05-12 23:11:37,844:INFO:Copying training dataset
+2025-05-12 23:11:37,846:INFO:Defining folds
+2025-05-12 23:11:37,847:INFO:Declaring metric variables
+2025-05-12 23:11:37,849:INFO:Importing untrained model
+2025-05-12 23:11:37,852:INFO:AdaBoost Regressor Imported successfully
+2025-05-12 23:11:37,859:INFO:Starting cross validation
+2025-05-12 23:11:37,861:INFO:Cross validating with KFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2025-05-12 23:11:38,014:WARNING:c:\env\ml\Lib\site-packages\numpy\lib\function_base.py:520: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis, **keepdims_kw)
+
+2025-05-12 23:11:38,014:WARNING:c:\env\ml\Lib\site-packages\numpy\core\_methods.py:129: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+
+2025-05-12 23:11:38,031:INFO:Calculating mean and std
+2025-05-12 23:11:38,032:INFO:Creating metrics dataframe
+2025-05-12 23:11:38,034:INFO:Uploading results into container
+2025-05-12 23:11:38,034:INFO:Uploading model into container now
+2025-05-12 23:11:38,035:INFO:_master_model_container: 15
+2025-05-12 23:11:38,035:INFO:_display_container: 2
+2025-05-12 23:11:38,035:INFO:AdaBoostRegressor(random_state=123)
+2025-05-12 23:11:38,035:INFO:create_model() successfully completed......................................
+2025-05-12 23:11:38,116:INFO:SubProcess create_model() end ==================================
+2025-05-12 23:11:38,116:INFO:Creating metrics dataframe
+2025-05-12 23:11:38,123:INFO:Initializing Gradient Boosting Regressor
+2025-05-12 23:11:38,124:INFO:Total runtime is 0.22019919157028198 minutes
+2025-05-12 23:11:38,126:INFO:SubProcess create_model() called ==================================
+2025-05-12 23:11:38,126:INFO:Initializing create_model()
+2025-05-12 23:11:38,126:INFO:create_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001CC0104B9D0>, estimator=gbr, fold=KFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x000001CC4535F690>, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2025-05-12 23:11:38,126:INFO:Checking exceptions
+2025-05-12 23:11:38,127:INFO:Importing libraries
+2025-05-12 23:11:38,127:INFO:Copying training dataset
+2025-05-12 23:11:38,129:INFO:Defining folds
+2025-05-12 23:11:38,129:INFO:Declaring metric variables
+2025-05-12 23:11:38,132:INFO:Importing untrained model
+2025-05-12 23:11:38,134:INFO:Gradient Boosting Regressor Imported successfully
+2025-05-12 23:11:38,139:INFO:Starting cross validation
+2025-05-12 23:11:38,140:INFO:Cross validating with KFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2025-05-12 23:11:38,294:WARNING:c:\env\ml\Lib\site-packages\numpy\lib\function_base.py:520: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis, **keepdims_kw)
+
+2025-05-12 23:11:38,294:WARNING:c:\env\ml\Lib\site-packages\numpy\core\_methods.py:129: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+
+2025-05-12 23:11:38,301:INFO:Calculating mean and std
+2025-05-12 23:11:38,302:INFO:Creating metrics dataframe
+2025-05-12 23:11:38,304:INFO:Uploading results into container
+2025-05-12 23:11:38,305:INFO:Uploading model into container now
+2025-05-12 23:11:38,305:INFO:_master_model_container: 16
+2025-05-12 23:11:38,305:INFO:_display_container: 2
+2025-05-12 23:11:38,305:INFO:GradientBoostingRegressor(random_state=123)
+2025-05-12 23:11:38,306:INFO:create_model() successfully completed......................................
+2025-05-12 23:11:38,391:INFO:SubProcess create_model() end ==================================
+2025-05-12 23:11:38,391:INFO:Creating metrics dataframe
+2025-05-12 23:11:38,398:INFO:Initializing Light Gradient Boosting Machine
+2025-05-12 23:11:38,398:INFO:Total runtime is 0.2247738202412923 minutes
+2025-05-12 23:11:38,403:INFO:SubProcess create_model() called ==================================
+2025-05-12 23:11:38,403:INFO:Initializing create_model()
+2025-05-12 23:11:38,404:INFO:create_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001CC0104B9D0>, estimator=lightgbm, fold=KFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x000001CC4535F690>, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2025-05-12 23:11:38,404:INFO:Checking exceptions
+2025-05-12 23:11:38,404:INFO:Importing libraries
+2025-05-12 23:11:38,404:INFO:Copying training dataset
+2025-05-12 23:11:38,406:INFO:Defining folds
+2025-05-12 23:11:38,406:INFO:Declaring metric variables
+2025-05-12 23:11:38,409:INFO:Importing untrained model
+2025-05-12 23:11:38,411:INFO:Light Gradient Boosting Machine Imported successfully
+2025-05-12 23:11:38,417:INFO:Starting cross validation
+2025-05-12 23:11:38,419:INFO:Cross validating with KFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2025-05-12 23:11:38,614:WARNING:c:\env\ml\Lib\site-packages\numpy\lib\function_base.py:520: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis, **keepdims_kw)
+
+2025-05-12 23:11:38,615:WARNING:c:\env\ml\Lib\site-packages\numpy\core\_methods.py:129: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+
+2025-05-12 23:11:38,693:INFO:Calculating mean and std
+2025-05-12 23:11:38,694:INFO:Creating metrics dataframe
+2025-05-12 23:11:38,696:INFO:Uploading results into container
+2025-05-12 23:11:38,697:INFO:Uploading model into container now
+2025-05-12 23:11:38,698:INFO:_master_model_container: 17
+2025-05-12 23:11:38,698:INFO:_display_container: 2
+2025-05-12 23:11:38,698:INFO:LGBMRegressor(n_jobs=-1, random_state=123)
+2025-05-12 23:11:38,698:INFO:create_model() successfully completed......................................
+2025-05-12 23:11:38,797:INFO:SubProcess create_model() end ==================================
+2025-05-12 23:11:38,797:INFO:Creating metrics dataframe
+2025-05-12 23:11:38,804:INFO:Initializing Dummy Regressor
+2025-05-12 23:11:38,805:INFO:Total runtime is 0.23155864079793292 minutes
+2025-05-12 23:11:38,807:INFO:SubProcess create_model() called ==================================
+2025-05-12 23:11:38,807:INFO:Initializing create_model()
+2025-05-12 23:11:38,807:INFO:create_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001CC0104B9D0>, estimator=dummy, fold=KFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x000001CC4535F690>, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2025-05-12 23:11:38,809:INFO:Checking exceptions
+2025-05-12 23:11:38,809:INFO:Importing libraries
+2025-05-12 23:11:38,809:INFO:Copying training dataset
+2025-05-12 23:11:38,811:INFO:Defining folds
+2025-05-12 23:11:38,811:INFO:Declaring metric variables
+2025-05-12 23:11:38,814:INFO:Importing untrained model
+2025-05-12 23:11:38,816:INFO:Dummy Regressor Imported successfully
+2025-05-12 23:11:38,822:INFO:Starting cross validation
+2025-05-12 23:11:38,824:INFO:Cross validating with KFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2025-05-12 23:11:38,924:WARNING:c:\env\ml\Lib\site-packages\numpy\lib\function_base.py:520: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis, **keepdims_kw)
+
+2025-05-12 23:11:38,924:WARNING:c:\env\ml\Lib\site-packages\numpy\core\_methods.py:129: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+
+2025-05-12 23:11:38,927:INFO:Calculating mean and std
+2025-05-12 23:11:38,928:INFO:Creating metrics dataframe
+2025-05-12 23:11:38,930:INFO:Uploading results into container
+2025-05-12 23:11:38,932:INFO:Uploading model into container now
+2025-05-12 23:11:38,932:INFO:_master_model_container: 18
+2025-05-12 23:11:38,932:INFO:_display_container: 2
+2025-05-12 23:11:38,932:INFO:DummyRegressor()
+2025-05-12 23:11:38,933:INFO:create_model() successfully completed......................................
+2025-05-12 23:11:39,014:INFO:SubProcess create_model() end ==================================
+2025-05-12 23:11:39,014:INFO:Creating metrics dataframe
+2025-05-12 23:11:39,024:WARNING:c:\env\ml\Lib\site-packages\pycaret\internal\pycaret_experiment\supervised_experiment.py:339: FutureWarning: Styler.applymap has been deprecated. Use Styler.map instead.
+  .applymap(highlight_cols, subset=["TT (Sec)"])
+
+2025-05-12 23:11:39,030:INFO:Initializing create_model()
+2025-05-12 23:11:39,031:INFO:create_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001CC0104B9D0>, estimator=Lasso(random_state=123), fold=KFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=False, predict=False, fit_kwargs={}, groups=None, refit=True, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=None, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2025-05-12 23:11:39,031:INFO:Checking exceptions
+2025-05-12 23:11:39,033:INFO:Importing libraries
+2025-05-12 23:11:39,033:INFO:Copying training dataset
+2025-05-12 23:11:39,035:INFO:Defining folds
+2025-05-12 23:11:39,035:INFO:Declaring metric variables
+2025-05-12 23:11:39,035:INFO:Importing untrained model
+2025-05-12 23:11:39,035:INFO:Declaring custom model
+2025-05-12 23:11:39,036:INFO:Lasso Regression Imported successfully
+2025-05-12 23:11:39,037:INFO:Cross validation set to False
+2025-05-12 23:11:39,037:INFO:Fitting Model
+2025-05-12 23:11:39,066:INFO:Lasso(random_state=123)
+2025-05-12 23:11:39,066:INFO:create_model() successfully completed......................................
+2025-05-12 23:11:39,164:INFO:_master_model_container: 18
+2025-05-12 23:11:39,165:INFO:_display_container: 2
+2025-05-12 23:11:39,165:INFO:Lasso(random_state=123)
+2025-05-12 23:11:39,165:INFO:compare_models() successfully completed......................................
+2025-05-12 23:11:55,300:INFO:Initializing create_model()
+2025-05-12 23:11:55,300:INFO:create_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001CC0104B9D0>, estimator=lasso, fold=None, round=4, cross_validation=True, predict=True, fit_kwargs=None, groups=None, refit=True, probability_threshold=None, experiment_custom_tags=None, verbose=True, system=True, add_to_model_list=True, metrics=None, display=None, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2025-05-12 23:11:55,300:INFO:Checking exceptions
+2025-05-12 23:11:55,316:INFO:Importing libraries
+2025-05-12 23:11:55,317:INFO:Copying training dataset
+2025-05-12 23:11:55,320:INFO:Defining folds
+2025-05-12 23:11:55,320:INFO:Declaring metric variables
+2025-05-12 23:11:55,325:INFO:Importing untrained model
+2025-05-12 23:11:55,331:INFO:Lasso Regression Imported successfully
+2025-05-12 23:11:55,337:INFO:Starting cross validation
+2025-05-12 23:11:55,338:INFO:Cross validating with KFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2025-05-12 23:11:55,437:WARNING:c:\env\ml\Lib\site-packages\numpy\lib\function_base.py:520: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis, **keepdims_kw)
+
+2025-05-12 23:11:55,437:WARNING:c:\env\ml\Lib\site-packages\numpy\core\_methods.py:129: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+
+2025-05-12 23:11:55,447:INFO:Calculating mean and std
+2025-05-12 23:11:55,447:INFO:Creating metrics dataframe
+2025-05-12 23:11:55,451:INFO:Finalizing model
+2025-05-12 23:11:55,483:INFO:Uploading results into container
+2025-05-12 23:11:55,484:INFO:Uploading model into container now
+2025-05-12 23:11:55,488:INFO:_master_model_container: 19
+2025-05-12 23:11:55,489:INFO:_display_container: 3
+2025-05-12 23:11:55,489:INFO:Lasso(random_state=123)
+2025-05-12 23:11:55,489:INFO:create_model() successfully completed......................................
+2025-05-12 23:11:59,817:INFO:Initializing tune_model()
+2025-05-12 23:11:59,817:INFO:tune_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001CC0104B9D0>, estimator=Lasso(random_state=123), fold=None, round=4, n_iter=10, custom_grid=None, optimize=R2, custom_scorer=None, search_library=scikit-learn, search_algorithm=None, early_stopping=False, early_stopping_max_iters=10, choose_better=True, fit_kwargs=None, groups=None, return_tuner=False, verbose=True, tuner_verbose=True, return_train_score=False, kwargs={})
+2025-05-12 23:11:59,817:INFO:Checking exceptions
+2025-05-12 23:11:59,832:INFO:Copying training dataset
+2025-05-12 23:11:59,835:INFO:Checking base model
+2025-05-12 23:11:59,835:INFO:Base model : Lasso Regression
+2025-05-12 23:11:59,839:INFO:Declaring metric variables
+2025-05-12 23:11:59,843:INFO:Defining Hyperparameters
+2025-05-12 23:11:59,932:INFO:Tuning with n_jobs=-1
+2025-05-12 23:11:59,932:INFO:Initializing RandomizedSearchCV
+2025-05-12 23:12:00,644:INFO:best_params: {'actual_estimator__fit_intercept': True, 'actual_estimator__alpha': 5.62}
+2025-05-12 23:12:00,644:INFO:Hyperparameter search completed
+2025-05-12 23:12:00,644:INFO:SubProcess create_model() called ==================================
+2025-05-12 23:12:00,644:INFO:Initializing create_model()
+2025-05-12 23:12:00,644:INFO:create_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001CC0104B9D0>, estimator=Lasso(random_state=123), fold=KFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=True, probability_threshold=None, experiment_custom_tags=None, verbose=True, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x000001CC01064850>, model_only=True, return_train_score=False, error_score=0.0, kwargs={'fit_intercept': True, 'alpha': 5.62})
+2025-05-12 23:12:00,644:INFO:Checking exceptions
+2025-05-12 23:12:00,644:INFO:Importing libraries
+2025-05-12 23:12:00,644:INFO:Copying training dataset
+2025-05-12 23:12:00,647:INFO:Defining folds
+2025-05-12 23:12:00,647:INFO:Declaring metric variables
+2025-05-12 23:12:00,649:INFO:Importing untrained model
+2025-05-12 23:12:00,649:INFO:Declaring custom model
+2025-05-12 23:12:00,651:INFO:Lasso Regression Imported successfully
+2025-05-12 23:12:00,656:INFO:Starting cross validation
+2025-05-12 23:12:00,657:INFO:Cross validating with KFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2025-05-12 23:12:00,759:WARNING:c:\env\ml\Lib\site-packages\numpy\lib\function_base.py:520: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis, **keepdims_kw)
+
+2025-05-12 23:12:00,759:WARNING:c:\env\ml\Lib\site-packages\numpy\core\_methods.py:129: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+
+2025-05-12 23:12:00,771:INFO:Calculating mean and std
+2025-05-12 23:12:00,772:INFO:Creating metrics dataframe
+2025-05-12 23:12:00,775:INFO:Finalizing model
+2025-05-12 23:12:00,808:INFO:Uploading results into container
+2025-05-12 23:12:00,809:INFO:Uploading model into container now
+2025-05-12 23:12:00,809:INFO:_master_model_container: 20
+2025-05-12 23:12:00,809:INFO:_display_container: 4
+2025-05-12 23:12:00,810:INFO:Lasso(alpha=5.62, random_state=123)
+2025-05-12 23:12:00,810:INFO:create_model() successfully completed......................................
+2025-05-12 23:12:00,893:INFO:SubProcess create_model() end ==================================
+2025-05-12 23:12:00,893:INFO:choose_better activated
+2025-05-12 23:12:00,895:INFO:SubProcess create_model() called ==================================
+2025-05-12 23:12:00,896:INFO:Initializing create_model()
+2025-05-12 23:12:00,896:INFO:create_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001CC0104B9D0>, estimator=Lasso(random_state=123), fold=KFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=True, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=None, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2025-05-12 23:12:00,896:INFO:Checking exceptions
+2025-05-12 23:12:00,898:INFO:Importing libraries
+2025-05-12 23:12:00,898:INFO:Copying training dataset
+2025-05-12 23:12:00,900:INFO:Defining folds
+2025-05-12 23:12:00,901:INFO:Declaring metric variables
+2025-05-12 23:12:00,901:INFO:Importing untrained model
+2025-05-12 23:12:00,901:INFO:Declaring custom model
+2025-05-12 23:12:00,901:INFO:Lasso Regression Imported successfully
+2025-05-12 23:12:00,901:INFO:Starting cross validation
+2025-05-12 23:12:00,902:INFO:Cross validating with KFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2025-05-12 23:12:00,996:WARNING:c:\env\ml\Lib\site-packages\numpy\lib\function_base.py:520: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis, **keepdims_kw)
+
+2025-05-12 23:12:00,996:WARNING:c:\env\ml\Lib\site-packages\numpy\core\_methods.py:129: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+
+2025-05-12 23:12:01,004:INFO:Calculating mean and std
+2025-05-12 23:12:01,005:INFO:Creating metrics dataframe
+2025-05-12 23:12:01,006:INFO:Finalizing model
+2025-05-12 23:12:01,032:INFO:Uploading results into container
+2025-05-12 23:12:01,032:INFO:Uploading model into container now
+2025-05-12 23:12:01,033:INFO:_master_model_container: 21
+2025-05-12 23:12:01,033:INFO:_display_container: 5
+2025-05-12 23:12:01,033:INFO:Lasso(random_state=123)
+2025-05-12 23:12:01,033:INFO:create_model() successfully completed......................................
+2025-05-12 23:12:01,115:INFO:SubProcess create_model() end ==================================
+2025-05-12 23:12:01,115:INFO:Lasso(random_state=123) result for R2 is -0.0421
+2025-05-12 23:12:01,115:INFO:Lasso(alpha=5.62, random_state=123) result for R2 is -0.0421
+2025-05-12 23:12:01,115:INFO:Lasso(random_state=123) is best model
+2025-05-12 23:12:01,115:INFO:choose_better completed
+2025-05-12 23:12:01,116:INFO:Original model was better than the tuned model, hence it will be returned. NOTE: The display metrics are for the tuned model (not the original one).
+2025-05-12 23:12:01,124:INFO:_master_model_container: 21
+2025-05-12 23:12:01,124:INFO:_display_container: 4
+2025-05-12 23:12:01,125:INFO:Lasso(random_state=123)
+2025-05-12 23:12:01,125:INFO:tune_model() successfully completed......................................
+2025-05-12 23:12:04,969:INFO:Initializing evaluate_model()
+2025-05-12 23:12:04,969:INFO:evaluate_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001CC0104B9D0>, estimator=Lasso(random_state=123), fold=None, fit_kwargs=None, plot_kwargs=None, feature_name=None, groups=None)
+2025-05-12 23:12:04,980:INFO:Initializing plot_model()
+2025-05-12 23:12:04,980:INFO:plot_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001CC0104B9D0>, estimator=Lasso(random_state=123), plot=pipeline, scale=1, save=False, fold=KFold(n_splits=10, random_state=None, shuffle=False), fit_kwargs={}, plot_kwargs=None, groups=None, feature_name=None, label=False, verbose=False, system=True, display=None, display_format=None)
+2025-05-12 23:12:04,980:INFO:Checking exceptions
+2025-05-12 23:12:04,982:INFO:Preloading libraries
+2025-05-12 23:12:04,982:INFO:Copying training dataset
+2025-05-12 23:12:04,982:INFO:Plot type: pipeline
+2025-05-12 23:12:05,462:INFO:Visual Rendered Successfully
+2025-05-12 23:12:05,548:INFO:plot_model() successfully completed......................................
+2025-05-12 23:12:07,089:INFO:Initializing predict_model()
+2025-05-12 23:12:07,089:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001CC0104B9D0>, estimator=Lasso(random_state=123), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001CC454E2160>)
+2025-05-12 23:12:07,089:INFO:Checking exceptions
+2025-05-12 23:12:07,089:INFO:Preloading libraries
+2025-05-12 23:12:07,193:WARNING:c:\env\ml\Lib\site-packages\sklearn\metrics\_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+
+2025-05-12 23:12:38,638:INFO:Initializing save_model()
+2025-05-12 23:12:38,638:INFO:save_model(model=Lasso(random_state=123), model_name=modelo_scoring_final, prep_pipe_=Pipeline(memory=FastMemory(location=C:\Users\JOSECA~1\AppData\Local\Temp\joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['edad', 'ingresos_mensuales',
+                                             'nro_creditos_previos',
+                                             'cuota_vs_ingreso',
+                                             'vehiculo_propio'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['estado_civil',
+                                             'historia_credito'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('onehot_encoding',
+                 TransformerWrapper(include=['estado_civil',
+                                             'historia_credito'],
+                                    transformer=OneHotEncoder(cols=['estado_civil',
+                                                                    'historia_credito'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('normalize',
+                 TransformerWrapper(transformer=StandardScaler()))]), verbose=True, use_case=MLUsecase.REGRESSION, kwargs={})
+2025-05-12 23:12:38,638:INFO:Adding model into prep_pipe
+2025-05-12 23:12:38,654:INFO:modelo_scoring_final.pkl saved in current working directory
+2025-05-12 23:12:38,660:INFO:Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['edad', 'ingresos_mensuales',
+                                             'nro_creditos_previos',
+                                             'cuota_vs_ingreso',
+                                             'vehiculo_propio'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['estado_civil',
+                                             'historia_credito'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('onehot_encoding',
+                 TransformerWrapper(include=['estado_civil',
+                                             'historia_credito'],
+                                    transformer=OneHotEncoder(cols=['estado_civil',
+                                                                    'historia_credito'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('trained_model', Lasso(random_state=123))])
+2025-05-12 23:12:38,660:INFO:save_model() successfully completed......................................

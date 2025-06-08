@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/PP/dmc_mle/taller03/mlruns/640880616826296403/c7b39ce1d58b401dad47758579041a54/artifacts
+end_time: 1749351574693
+entry_point_name: ''
+experiment_id: '640880616826296403'
+lifecycle_stage: active
+run_id: c7b39ce1d58b401dad47758579041a54
+run_name: Linear Discriminant Analysis
+run_uuid: c7b39ce1d58b401dad47758579041a54
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749351574491
+status: 3
+tags: []
+user_id: Jose Castañeda

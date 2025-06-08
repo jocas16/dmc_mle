@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/PP/dmc_mle/taller03/mlruns/640880616826296403/ad10dafb76d541c78e929ee46fe1b2ea/artifacts
+end_time: 1749351575751
+entry_point_name: ''
+experiment_id: '640880616826296403'
+lifecycle_stage: active
+run_id: ad10dafb76d541c78e929ee46fe1b2ea
+run_name: Decision Tree Classifier
+run_uuid: ad10dafb76d541c78e929ee46fe1b2ea
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749351575521
+status: 3
+tags: []
+user_id: Jose Castañeda

@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/PP/dmc_mle/taller03/mlruns/640880616826296403/a581224b05824252913ff470cdb5af50/artifacts
+end_time: 1749351574072
+entry_point_name: ''
+experiment_id: '640880616826296403'
+lifecycle_stage: active
+run_id: a581224b05824252913ff470cdb5af50
+run_name: Ridge Classifier
+run_uuid: a581224b05824252913ff470cdb5af50
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749351573866
+status: 3
+tags: []
+user_id: Jose Castañeda
